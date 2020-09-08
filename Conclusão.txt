@@ -1,0 +1,12 @@
+Pela Análise Exploratória, podemos observar que o Método Aproximado mesmo possuindo a garantia
+que o resultado final não irá sobrepor o dobro do resultado ótimo, em todos as instancias se 
+vê que a cobertura obtida pelo método Guloso é sempre melhor um exemplo disto seria todas as
+medianas obtidas pelo método Guloso serem menores que as obtidas no método aproximado.
+Há algumas instâncias que o guloso aparenta ter encontrado a menor cobertura possivel, pelo fato
+de nenhuma das 100 vezes que foi rodado ter dado uma cobertura diferente.
+Uma observação interessante a se fazer é que, nos grafos poucos densos o guloso possui uma 
+cobertura consideravelmente menor que o metódo aproximado, normalmente ao observarmos um gráfico
+muito denso logo pensamos que o guloso se irá sobrepor por uma grande vantagem, mas na verdade
+isto não acontece, talvez pelo fato de como qualquer arco que o metodo aproximado sortear ter
+maiores chances de ser um arco populoso isto diminui consideravelmente o resultado final entre
+os dois.
